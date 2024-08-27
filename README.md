@@ -1,8 +1,6 @@
 # EmployeeWeekSchedule
 
-TODO: Delete this and the text below, and describe your gem
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/employee_week_schedule`. To experiment with that code, run `bin/console` for an interactive prompt.
+Make employee week schedule balancing hours assigned according employee availability.
 
 ## Installation
 
@@ -26,6 +24,45 @@ After checking out the repo, run `bin/setup` to install dependencies. Then, run 
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
+## Initial Development Process
+
+Create gem and gemset
+```sh
+$ bundle gem employee_week_schedule
+$ cd employee_week_schedule
+$ echo "employee_week_schedule" >> .ruby-gemset
+$ rvm gemset create employee_week_schedule
+$ rvm gemset use employee_week_schedule
+```
+
+Update .gemspec file adding required info
+```ruby
+...
+Gem::Specification.new do |spec|
+  ...
+  spec.summary = "Make employee week schedule."
+  spec.description = "Make employee week schedule balancing hours assigned according employee availability."
+  spec.homepage = "https://github.com/rofaccess/employee_week_schedule"
+  ...
+
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
+
+  spec.metadata["homepage_uri"] = spec.homepage
+  spec.metadata["source_code_uri"] = spec.homepage
+  spec.metadata["changelog_uri"] = "https://github.com/rofaccess/employee_week_schedule/blob/main/CHANGELOG.md"
+  ...
+```
+
+Install required gems and run tests
+```sh
+$ bundle install
+$ rake # or: rake spec
+```
+
+To experiment in console
+```sh
+$ bin/console
+```
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/employee_week_schedule. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/employee_week_schedule/blob/master/CODE_OF_CONDUCT.md).
