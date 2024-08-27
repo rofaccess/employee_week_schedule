@@ -63,6 +63,15 @@ To experiment in console
 ```sh
 $ bin/console
 ```
+
+## Documentation
+[Yard](https://rubydoc.info/gems/yard/file/docs/GettingStarted.md) gem is used for documentation. See [Documentation using Yard](https://andrewfoster.hashnode.dev/documentation-using-yard) post for a Yard using example.
+
+Generate documentation
+```sh
+$ yard
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/employee_week_schedule. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/employee_week_schedule/blob/master/CODE_OF_CONDUCT.md).
