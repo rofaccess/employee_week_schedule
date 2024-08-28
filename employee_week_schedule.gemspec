@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-require_relative "lib/employee_week_schedule/version"
+require_relative "lib/worker_week_schedule/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "employee_week_schedule"
-  spec.version = EmployeeWeekSchedule::VERSION
+  spec.name = "worker_week_schedule"
+  spec.version = WorkerWeekSchedule::VERSION
   spec.authors = ["Rodrigo Fernandez"]
   spec.email = ["rofaccess@gmail.com"]
 
-  spec.summary = "Make employee week schedule."
-  spec.description = "Make employee week schedule balancing hours assigned according employee availability."
-  spec.homepage = "https://github.com/rofaccess/employee_week_schedule"
+  spec.summary = "Make worker week schedule."
+  spec.description = "Make worker week schedule balancing hours assigned according worker availability."
+  spec.homepage = "https://github.com/rofaccess/worker_week_schedule"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
-  spec.metadata["changelog_uri"] = "https://github.com/rofaccess/employee_week_schedule/blob/main/CHANGELOG.md"
+  spec.metadata["changelog_uri"] = "https://github.com/rofaccess/worker_week_schedule/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

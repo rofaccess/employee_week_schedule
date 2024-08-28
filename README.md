@@ -1,6 +1,6 @@
-# EmployeeWeekSchedule
+# WorkerWeekSchedule
 
-Make employee week schedule balancing hours assigned according employee availability.
+Make worker week schedule balancing hours assigned according worker availability.
 
 ## Installation
 
@@ -28,11 +28,11 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Create gem and gemset
 ```sh
-$ bundle gem employee_week_schedule
-$ cd employee_week_schedule
-$ echo "employee_week_schedule" >> .ruby-gemset
-$ rvm gemset create employee_week_schedule
-$ rvm gemset use employee_week_schedule
+$ bundle gem worker_week_schedule
+$ cd worker_week_schedule
+$ echo "worker_week_schedule" >> .ruby-gemset
+$ rvm gemset create worker_week_schedule
+$ rvm gemset use worker_week_schedule
 ```
 
 Update .gemspec file adding required info
@@ -40,16 +40,16 @@ Update .gemspec file adding required info
 ...
 Gem::Specification.new do |spec|
   ...
-  spec.summary = "Make employee week schedule."
-  spec.description = "Make employee week schedule balancing hours assigned according employee availability."
-  spec.homepage = "https://github.com/rofaccess/employee_week_schedule"
+  spec.summary = "Make worker week schedule."
+  spec.description = "Make worker week schedule balancing hours assigned according worker availability."
+  spec.homepage = "https://github.com/rofaccess/worker_week_schedule"
   ...
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
-  spec.metadata["changelog_uri"] = "https://github.com/rofaccess/employee_week_schedule/blob/main/CHANGELOG.md"
+  spec.metadata["changelog_uri"] = "https://github.com/rofaccess/worker_week_schedule/blob/main/CHANGELOG.md"
   ...
 ```
 
@@ -74,7 +74,7 @@ $ yard
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/employee_week_schedule. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/employee_week_schedule/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/worker_week_schedule. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/worker_week_schedule/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -82,4 +82,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the EmployeeWeekSchedule project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/employee_week_schedule/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the WorkerWeekSchedule project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/worker_week_schedule/blob/master/CODE_OF_CONDUCT.md).
