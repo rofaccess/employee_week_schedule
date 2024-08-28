@@ -55,10 +55,10 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  worker_week_schedule!
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 1.21)
+  worker_week_schedule!
 
 BUNDLED WITH
    2.5.11
