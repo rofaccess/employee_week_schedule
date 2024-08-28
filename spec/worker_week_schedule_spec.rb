@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-RSpec.describe WorkerWeekSchedule do
+RSpec.describe ShiftWeekSchedule do
   it "has a version number" do
-    expect(WorkerWeekSchedule::VERSION).not_to be nil
+    expect(ShiftWeekSchedule::VERSION).not_to be nil
   end
 
   it "does something useful" do

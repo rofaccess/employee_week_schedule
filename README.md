@@ -58,11 +58,11 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Create gem and gemset
 ```sh
-$ bundle gem worker_week_schedule
-$ cd worker_week_schedule
-$ echo "worker_week_schedule" >> .ruby-gemset
-$ rvm gemset create worker_week_schedule
-$ rvm gemset use worker_week_schedule
+$ bundle gem shift_week_schedule
+$ cd shift_week_schedule
+$ echo "shift_week_schedule" >> .ruby-gemset
+$ rvm gemset create shift_week_schedule
+$ rvm gemset use shift_week_schedule
 ```
 
 Update .gemspec file adding required info
@@ -72,14 +72,14 @@ Gem::Specification.new do |spec|
   ...
   spec.summary = "Make worker week schedule."
   spec.description = "Make worker week schedule balancing hours assigned according worker availability."
-  spec.homepage = "https://github.com/rofaccess/worker_week_schedule"
+  spec.homepage = "https://github.com/rofaccess/shift_week_schedule"
   ...
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
-  spec.metadata["changelog_uri"] = "https://github.com/rofaccess/worker_week_schedule/blob/main/CHANGELOG.md"
+  spec.metadata["changelog_uri"] = "https://github.com/rofaccess/shift_week_schedule/blob/main/CHANGELOG.md"
   ...
 ```
 
@@ -104,7 +104,7 @@ $ yard
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/worker_week_schedule. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/worker_week_schedule/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/shift_week_schedule. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/shift_week_schedule/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -112,4 +112,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the WorkerWeekSchedule project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/worker_week_schedule/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the ShiftWeekSchedule project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/shift_week_schedule/blob/master/CODE_OF_CONDUCT.md).

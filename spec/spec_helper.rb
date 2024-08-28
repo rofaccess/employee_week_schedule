@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "worker_week_schedule"
+require "shift_week_schedule"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

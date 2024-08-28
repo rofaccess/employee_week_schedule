@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "worker_week_schedule/version"
+require_relative "shift_week_schedule/version"
 
 # Main module to make worker week schedule.
 # @author Rodrigo Fernández
-module WorkerWeekSchedule
+module ShiftWeekSchedule
   # Return a Hash representing the made schedule
   # @param week_number [Integer] The week_number of schedule requesting.
   # @param year [Integer] The year of schedule requesting.
@@ -31,7 +31,7 @@ module WorkerWeekSchedule
   #     { "start_time" => "19:00", "end_time" => "23:00", "day" => "Tuesday", "worker" => "Sam" }
   #   ]
   #
-  #   WorkerWeekSchedule.make(10, 2020, work_schedule, workers_availabilities_schedules)
+  #   ShiftWeekSchedule.make(10, 2020, work_schedule, workers_availabilities_schedules)
   #     => {}
   def make(week_number, year, work_schedule, workers_availabilities_schedules); end
   class Error < StandardError; end

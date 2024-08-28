@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in worker_week_schedule.gemspec
+# Specify your gem's dependencies in shift_week_schedule.gemspec
 gemspec
 
 gem "rake", "~> 13.0"

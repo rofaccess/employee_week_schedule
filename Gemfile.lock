@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    worker_week_schedule (0.1.0)
+    shift_week_schedule (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -59,7 +59,7 @@ DEPENDENCIES
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 1.21)
-  worker_week_schedule!
+  shift_week_schedule!
   yard (~> 0.9.36)
 
 BUNDLED WITH

@@ -1,4 +1,4 @@
-module WorkerWeekSchedule
+module ShiftWeekSchedule
   VERSION: String
 
   def make: () -> Hash[untyped, untyped]
