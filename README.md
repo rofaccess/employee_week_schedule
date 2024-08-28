@@ -1,6 +1,36 @@
-# WorkerWeekSchedule
+# ShiftWeekSchedule
 
-Make worker week schedule balancing hours assigned according worker availability.
+Make a shift week schedule considering a work schedule and some workers availabilities.
+
+The schedule is generated for a specific week number and year.
+The schedule generated considering these features:
+- All work schedule must be covered if exist workers available.
+- The hours assigned to workers must be have the better balance possible.
+
+Given a work schedule and workers availabilities, there are several possible solutions.
+This implementation will choose the best solution:
+
+Ex.: Considering these possible solutions with worker name and total hours assigned
+```
+1. John: 5h     Sam: 9h     Dean: 10h
+2. John: 13h    Sam: 2h     Dean: 9h
+3. John: 9h     Sam: 7h     Dean: 8h
+```
+Analysing each solution we have these differences between total hours
+```
+1. (9-5) = 4    |   (10 - 5) = 5  |    (10 - 9) = 1
+   The max value between each difference is 5.
+   
+2. (13-2) = 11  |   (13 - 9) = 4  |    (9 - 2) = 7
+   The max value between each difference is 11
+   
+3. (9-7) = 2    |   (9 - 8) = 1   |    (8 - 7) = 1
+   The max value between each difference is 2
+```
+The best solution among all is the one with the lowest maximum value, in this case the min max value is 2
+of solution 3.
+
+Then, the solution 3 is the best.
 
 ## Installation
 
