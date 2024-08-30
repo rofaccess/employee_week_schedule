@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Rodrigo Fernandez"]
   spec.email = ["rofaccess@gmail.com"]
 
-  spec.summary = "Make worker week schedule."
+  spec.summary = "Make a shift week schedule."
   spec.description = "Make worker week schedule balancing hours assigned according worker availability."
   spec.homepage = "https://github.com/rofaccess/shift_week_schedule"
   spec.license = "MIT"

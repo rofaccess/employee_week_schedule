@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require "daily_shifts"
 require "shift_week_schedule"
 
 RSpec.configure do |config|

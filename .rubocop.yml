@@ -7,3 +7,7 @@ Style/StringLiterals:
 
 Style/StringLiteralsInInterpolation:
   EnforcedStyle: double_quotes
+
+Metrics/BlockLength:
+  AllowedMethods:
+    - 'describe' # Exclude RSpec describe from offenses

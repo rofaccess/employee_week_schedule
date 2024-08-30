@@ -1,0 +1,14 @@
+module DailyShifts
+  def self.build: -> untyped
+
+  private
+
+  def self.combine_availabilities: -> untyped
+  def self.build_key: -> untyped
+  def self.extract_values: -> untyped
+  def self.parse_times: -> untyped
+  def self.build_availability: -> untyped
+  def self.save_new_availabilities: -> untyped
+  def self.save_availability: -> untyped
+  def self.save_new_availability: -> untyped
+end

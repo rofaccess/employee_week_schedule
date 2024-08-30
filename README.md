@@ -4,6 +4,7 @@ Make a shift week schedule considering a work schedule and some workers availabi
 
 The schedule is generated for a specific week number and year.
 The schedule generated considering these features:
+
 - All work schedule must be covered if exist workers available.
 - The hours assigned to workers must be have the better balance possible.
 
@@ -31,6 +32,19 @@ The best solution among all is the one with the lowest maximum value, in this ca
 of solution 3.
 
 Then, the solution 3 is the best.
+
+## Improvements
+This program build all possible solutions and next choose the best. I think that is not the best way to do it, because
+sound inefficient, but I don't found other solution yet.
+Some solutions maybe require the use of: 
+
+1. **Constraint Programming:** This require modeling the problem and use solvers provided by gems like [OR-tools](https://github.com/ankane/or-tools-ruby)
+2. **Linear Programming:** This require modeling the problem using mathematics.
+3. **Genetic Algorithms:** This sound complex.
+4. Or improve the same code implemented in this gem or maybe using other algorithms in parts of the code.
+
+
+
 
 ## Installation
 
@@ -70,8 +84,8 @@ Update .gemspec file adding required info
 ...
 Gem::Specification.new do |spec|
   ...
-  spec.summary = "Make worker week schedule."
-  spec.description = "Make worker week schedule balancing hours assigned according worker availability."
+  spec.summary = "Make a shift week schedule."
+  spec.description = "Make a shift week schedule considering a work schedule and some workers availabilities."
   spec.homepage = "https://github.com/rofaccess/shift_week_schedule"
   ...
 
